@@ -7,7 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -25,29 +26,31 @@
 
 <body>
   <main>
+    <div class="card">
     <div class="image-container-nft">
       <img src="./images/image-equilibrium.jpg" alt="Equilibrium image" class="img">
       <div class="overlay"><img src="./images/icon-view.svg" class="overlay-image"></div>
     </div>
     <div class="content-nft">
       <h1><a href="#">Equilibrium #3429</a></h1>
-      <p class="decription">
+      <p class="description">
         Our Equilibrium collection promotes balance and calm.
       </p>
       <div class="details">
         <p class="price"><img src="./images/icon-ethereum.svg" alt="icon ethereum" class="icon"> ETH</p>
         <p class="duration"><img src="./images/icon-clock.svg" alt="icon clock" class="icon"> days left</p>
       </div>
-      <div class="separator"></div>
       <div class="creator-container">
         <img src="./images/image-avatar.png" alt="Creator avatar" class="creator-avatar">
-        Creation of Jules Wyvern
+        <p>Creation of 
+          <a href="#" id="creator">Jules Wyvern</a></p>
       </div>
     </div>
+  </div>
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/BanDevLab">Pablo D. Banegas</a>.
   </div>
 </body>
 
