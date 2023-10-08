@@ -86,6 +86,7 @@ body{
                     display: flex;
                     justify-content: space-between;
                     margin-bottom: 1.5rem;
+                    
                     .price{
                         color:var(--color-primary-light);
                         line-height: 1.6;
@@ -93,6 +94,9 @@ body{
                     .duration{
                         color: var(--color-primary-dark);
                         line-height: 1.6;
+                    }
+                    img{
+                        margin-right: .3em;
                     }
                 }
                 .creator-container{

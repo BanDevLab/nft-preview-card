@@ -92,6 +92,9 @@ body main .card .content-nft .details .duration {
   color: var(--color-primary-dark);
   line-height: 1.6;
 }
+body main .card .content-nft .details img {
+  margin-right: 0.3em;
+}
 body main .card .content-nft .creator-container {
   display: flex;
   align-items: center;
